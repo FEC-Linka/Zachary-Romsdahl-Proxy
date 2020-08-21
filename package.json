@@ -1,0 +1,24 @@
+{
+  "name": "zachary-romsdahl-proxy",
+  "version": "1.0.0",
+  "description": "Zachary Romsdahl's Proxy server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FEC-Linka/Zachary-Romsdahl-Proxy.git"
+  },
+  "author": "Zachary Romsdahl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FEC-Linka/Zachary-Romsdahl-Proxy/issues"
+  },
+  "homepage": "https://github.com/FEC-Linka/Zachary-Romsdahl-Proxy#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4"
+  }
+}
